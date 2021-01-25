@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+  color: rgb(25, 22, 196);
+}
+a :hover {
+  text-decoration: underline;
+  color: rgb(37, 36, 143);
+}
+
+.top-banner {
+  display: flex;
+  justify-content: center;
+}
+
+.the-3-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.second-topic {
+  padding-left: 30px;
+}
+
+/* .second-topic a {
+  color: red;
+} */
+
+.third-topic {
+  padding-left: 55px;
+}
+
+.second-topic-with-2-links {
+  display: grid;
+  grid-template-columns: 0.25fr 0.19fr 2fr;
+}
+
+.second-topic-with-2-links-2 {
+  display: grid;
+  grid-template-columns: 0.57fr 0.1fr 3fr;
+}
+
+.third-topic-with-3-links {
+  display: grid;
+  grid-template-columns: 0.42fr 0.05fr 0.21fr 0.06fr 1fr;
+}

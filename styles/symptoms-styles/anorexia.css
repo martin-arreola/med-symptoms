@@ -1,0 +1,73 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.top-banner {
+  display: flex;
+  justify-content: center;
+}
+
+.first-row-under-top-banner {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.description-of-symptoms {
+  margin: 40px;
+  margin-top: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.symptom-image-box {
+  margin-top: 26px;
+  margin-right: 50px;
+  border: 1px solid black;
+  background-color: rgb(245, 245, 245);
+}
+
+.name-of-symptom {
+  background-color: rgb(212, 212, 212);
+  width: 290px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.symptom-image-box > .bottom-information {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  grid-gap: 0px;
+  padding-left: 20px;
+}
+
+.all-of-the-contents-box {
+  border: 1px solid black;
+  background-color: rgb(247, 247, 247);
+  width: 350px;
+  height: 350px;
+  margin: 0px 0px 50px 20px;
+}
+
+.all-of-the-contents-box > .title-of-contents-box {
+  display: flex;
+  justify-content: center;
+}
+
+.information-on-topic > .title {
+  display: flex;
+  justify-content: center;
+}
+
+.information-on-topic > .information {
+  font-family: "Raleway", sans-serif;
+}
+
+.common-causes > .title {
+  display: flex;
+  justify-content: center;
+}
+
+.common-causes > .first-topic {
+  padding-left: 20px;
+}
